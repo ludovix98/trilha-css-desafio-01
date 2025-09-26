@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap'); /*Importa a fonte Raleway*/
+
+*{
+    margin: 0; /*Tira a borda que sobra da div*/
+    font-family: "Raleway", sans-serif;
+    
+}
+
+body{
+    background-color: black; /*Coloca a página INTEIRA com o fundo preto, por estar na tag body*/
+}
+
+.banner{
+    background-image: radial-gradient(#33a9db46, rgba(0, 0, 0, 0.733)) , url(/assets/images/banner.png);
+    height: 600px;
+}
+
+.banner-content{
+    padding-top: 100px;
+    text-align: center;
+    font-size: large;
+    
+}
+
+.banner h1{
+    text-transform: uppercase;
+    color: #33a9db;
+    font-size: 50px;
+}
+
+p{
+    color: white;
+    margin: 20px;
+}
+
+.banner-content button{
+    color: #33a9db;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: larger;
+    width: 300px;
+    height: 80px;
+    background-color: transparent;
+}
+
+h2{
+    color: #33a9db;
+    font-weight: bolder;
+}
+
+#course-content{
+    
+    text-align: center;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+
+section{
+    margin: 100px;
+}
+
+.modules-list .module{
+    display: grid;
+    place-items: center;
+    border: 2px solid #33a9db;
+    padding: 20px;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    width: 400px;
+    height: 30px;
+    margin: 0 auto 20px;
+    border-radius: 100px;
+}
+
+#transform-world{
+    
+    background-image: url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 300px;
+    margin: 0;
+}
+
+#transform-world p{
+    font-size: 40px;
+    font-weight: 800;
+    width: 300px;
+    text-shadow: 2px 4px #33a9db;
+    text-transform: lowercase;
+}
+
+#professional-challenges{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-image: linear-gradient(black, #33a9db62);
+    padding: 70px;
+    
+}
+
+footer a{
+    text-decoration: none;
+    color: #33a9db;
+    font-weight: bold;
+}
